@@ -1,0 +1,14 @@
+C:\Users\AbrilMtz\Documents\Python\AdminProjects\AdminProjects\bin\AdminProjects.dll.config
+C:\Users\AbrilMtz\Documents\Python\AdminProjects\AdminProjects\bin\AdminProjects.dll
+C:\Users\AbrilMtz\Documents\Python\AdminProjects\AdminProjects\bin\AdminProjects.pdb
+C:\Users\AbrilMtz\Documents\Python\AdminProjects\AdminProjects\obj\Debug\AdminProjects.dll
+C:\Users\AbrilMtz\Documents\Python\AdminProjects\AdminProjects\obj\Debug\AdminProjects.pdb
+C:\Users\AbrilMtz\Documents\Python\AdminProjects\AdminProjects\obj\Debug\AdminProjects.csprojResolveAssemblyReference.cache
+C:\Users\AbrilMtz\Documents\VisualStudio_ProyectosWeb\AdminProjects - copia\AdminProjects\bin\AdminProjects.dll.config
+C:\Users\AbrilMtz\Documents\VisualStudio_ProyectosWeb\AdminProjects - copia\AdminProjects\bin\AdminProjects.dll
+C:\Users\AbrilMtz\Documents\VisualStudio_ProyectosWeb\AdminProjects - copia\AdminProjects\bin\AdminProjects.pdb
+C:\Users\AbrilMtz\Documents\VisualStudio_ProyectosWeb\AdminProjects - copia\AdminProjects\obj\Debug\AdminProjects.csprojResolveAssemblyReference.cache
+C:\Users\AbrilMtz\Documents\VisualStudio_ProyectosWeb\AdminProjects - copia\AdminProjects\obj\Debug\AdminProjects.dll
+C:\Users\AbrilMtz\Documents\VisualStudio_ProyectosWeb\AdminProjects - copia\AdminProjects\obj\Debug\AdminProjects.pdb
+C:\Users\AbrilMtz\Documents\VisualStudio_ProyectosWeb\AdminProjects - copia\AdminProjects\bin\DayPilot.dll
+C:\Users\AbrilMtz\Documents\VisualStudio_ProyectosWeb\AdminProjects - copia\AdminProjects\bin\DayPilot.xml

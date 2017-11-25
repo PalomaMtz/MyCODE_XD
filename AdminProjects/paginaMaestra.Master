@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="paginaMaestra.master.cs" Inherits="AdminProjects.FormulariosWeb.paginaMaestra" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="container-fluid">
+                <p></p>
+
+                <div class="navbar-header">
+
+                    <asp:Menu runat="server" Orientation="Horizontal" Font-Bold="false"
+                        Font-Size="15pt" Font-Names="Corbel" BackColor="#24526D" ForeColor="White" ItemWrap="True" Width="100%">
+                        <DynamicHoverStyle BackColor="#00B0CC" ForeColor="#CCFFFF" BorderColor="#000099" BorderStyle="Outset" BorderWidth="2px" Font-Bold="True" Font-Size="15pt" />
+                        <DynamicMenuItemStyle BackColor="#00B0CC" BorderStyle="None" BorderWidth="1px" />
+                        <Items>
+                            <asp:MenuItem Text="Dirección"></asp:MenuItem>
+                            <asp:MenuItem Text="   Gestión Comercial" Value="Nuevo elemento">
+                                <asp:MenuItem NavigateUrl="~/FormulariosWeb/AltaCliente.aspx" Text="    Registro de Cliente" Value="Registro de Cliente"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/FormulariosWeb/listado.aspx?lista=clientes" Text="    Cartera de Clientes" Value="Cartera de Clientes"></asp:MenuItem>
+                            </asp:MenuItem>
+
+                            <asp:MenuItem Text="Gestion de Proyectos" Value="Nuevo elemento">
+                                <asp:MenuItem Text="Solicitud de proyectos" Value="Solicitud de proyectos">
+                                    <asp:MenuItem NavigateUrl="~/FormulariosWeb/listado.aspx?lista=empresas" Text="Nueva Solicitud" Value="Nueva Solicitudo"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/FormulariosWeb/listado.aspx?lista=proyectos" Text="Editar Solicitud" Value="Editar Solicitud"></asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="    Alta de Proyecto" Value="Alta de Proyecto" NavigateUrl="~/FormulariosWeb/AltaProyecto.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="Seguimiento de Proyecto" Value="Seguimiento de Proyecto">
+                                    <asp:MenuItem Text="Alta de Actividades" Value="Alta de Actividades" ></asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="    Cierre de Proyecto" Value="Cierre de Proyecto"></asp:MenuItem>
+                            </asp:MenuItem>
+
+                            <asp:MenuItem Text="Administración de RH" Value="Nuevo elemento">
+                                <asp:MenuItem Text="Administración de Puestos" Value="Administración de Puestos">
+                                    <asp:MenuItem Text="Alta del Perfil de Puesto" Value="Alta del Perfil de Puesto"></asp:MenuItem>
+                                    <asp:MenuItem Text="Imprimir Cronograma" Value="Imprimir Cronograma"></asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="Administración de Personal" Value="Administración de Personal">
+                                    <asp:MenuItem Text="Alta de personal" Value="Alta de personal"></asp:MenuItem>
+                                    <asp:MenuItem Text="Baja Personal" Value="Baja Personal"></asp:MenuItem>
+                                </asp:MenuItem>
+                            </asp:MenuItem>
+
+                            <asp:MenuItem Text="Admnistración de Recursos Materiales" Value="Nuevo elemento"></asp:MenuItem>
+                            <asp:MenuItem Text="Administración de Recursos Financieros" Value="Nuevo elemento"></asp:MenuItem>
+                            <asp:MenuItem Text="Administración de Producción" Value="Administración de Producción"></asp:MenuItem>
+                            <asp:MenuItem Text="Avisos" Value="Avisos"></asp:MenuItem>
+                            <asp:MenuItem Text="Soporte" Value="Soporte"></asp:MenuItem>
+
+                        </Items>
+                        <StaticHoverStyle BackColor="#00B0CC" ForeColor="White" Font-Bold="True" />
+                        <StaticMenuItemStyle HorizontalPadding="20px" VerticalPadding="10px" />
+                        <StaticSelectedStyle HorizontalPadding="10px" />
+                    </asp:Menu>
+                </div>
+            </div>
+        </div>
+        <p></p>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+    </form>
+</body>
+</html>
