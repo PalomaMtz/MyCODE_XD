@@ -12,15 +12,7 @@
 
 
     <title></title>
-  <script type="text/javascript" >
-
-      function cerrarpagina() {
-
-          window.close();
-
-      }
-
-</script>
+  
 </head>
 <body>
     <br />
@@ -30,9 +22,9 @@
         </div>
     <br />
     <div>
-        <table width="90%">
+        <table style="width:90%">
             <tr>
-                <td width="5%" rowspan="7">
+                <td style="width:5%" rowspan="7">
 
                 
                 </td>
@@ -59,7 +51,7 @@
 
                 </td>
                 
-                <td style="width:10%" width="25%">
+                <td style="width:10%">
 
                 <asp:Label ID="Label5" runat="server" Text="Teléfono" CssClass="text-primary" Font-Bold="True" Font-Size="13pt"></asp:Label>
                     <asp:Label ID="Label23" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="15pt" ForeColor="Red" Text="*"></asp:Label>
@@ -90,7 +82,7 @@
 
                 </td>
                 
-                <td width="25%">
+                <td style="width:25%">
 
                     <br />
 
@@ -100,7 +92,7 @@
                 </td>
             </tr>
             <tr>
-                <td width="90%" colspan="3" rowspan="1">
+                <td style="width:90%" colspan="3" rowspan="1">
 
                     <br />
 
@@ -118,7 +110,7 @@
                 
             </tr>
             <tr>
-                <td width="90%" colspan="3" rowspan="1">
+                <td style="width:90%" colspan="3" rowspan="1">
 
                     <br />
                     <asp:Label ID="Label10" runat="server" Text="Entregable específico" CssClass="text-primary" Font-Bold="True" Font-Size="13pt"></asp:Label>
@@ -140,7 +132,7 @@
 
             </tr>
             <tr>
-                <td width="90%" colspan="3" class="auto-style3">
+                <td style="width:90%" colspan="3" class="auto-style3">
 
                     <asp:Panel runat="server" BorderStyle="Ridge" Width="90%" ID="pnlActividades"  style="text-align: center; margin-left:5%;" Visible="False">
                         <br />
@@ -203,10 +195,6 @@
                 </td>
                 
             </tr>
-
-
-
-            
         </table>
     
     </div>

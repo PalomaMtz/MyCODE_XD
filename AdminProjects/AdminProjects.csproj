@@ -114,6 +114,7 @@
     <Content Include="Media\layout\main.png" />
     <Content Include="Media\layout\shadow.png" />
     <Content Include="MisControles\UserControlArchivosPDF.ascx" />
+    <Content Include="MisControles\UserControlMensaje.ascx" />
     <Content Include="paginaMaestra.Master" />
     <Content Include="packages.config" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
@@ -247,6 +248,13 @@
     <Compile Include="Gantt\New.aspx.cs">
       <DependentUpon>New.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MisControles\UserControlMensaje.ascx.cs">
+      <DependentUpon>UserControlMensaje.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MisControles\UserControlMensaje.ascx.designer.cs">
+      <DependentUpon>UserControlMensaje.ascx</DependentUpon>
     </Compile>
     <Compile Include="TareasPrincipales\ProcedimientosAltaActividades.cs" />
     <Compile Include="TareasPrincipales\ProcedimientosAltaProyecto.cs" />

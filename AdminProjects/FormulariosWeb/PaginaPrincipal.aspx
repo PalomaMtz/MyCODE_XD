@@ -26,7 +26,7 @@
                 <asp:ImageButton ID="btnOpciones" runat="server" Height="43px" ImageUrl="~/Imagenes/settings.png"
                     data-toggle="dropdown" CssClass="dropdown-toggle" />
                 &nbsp;              
-                <asp:Menu ID="menuPrincipal" runat="server" class="dropdown-menu" role="menu" Style="margin-right: 10px; text-align: center" OnMenuItemClick="menuPrincipal_MenuItemClick">
+                <asp:Menu ID="menuPrincipal" runat="server" class="dropdown-menu"  Style="margin-right: 10px; text-align: center" OnMenuItemClick="menuPrincipal_MenuItemClick">
                     <Items>
                         <asp:MenuItem Text="- Editar Elementos"></asp:MenuItem>
                         <asp:MenuItem Text="- Agregar Usuario"></asp:MenuItem>

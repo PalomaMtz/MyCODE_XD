@@ -11,6 +11,46 @@ namespace AdminProjects.TareasPrincipales
     public class ProcedimientosCliente
     {
         ClaseGeneral Proceso = new ClaseGeneral();
+
+        public void GuardarHorario(List<string> _lista)
+        {            
+            IList<IDbDataParameter> Lista = new List<IDbDataParameter>();
+            IDbDataParameter dato;
+            dato = new SqlParameter("@nombreComercial", SqlDbType.NVarChar) { Value = _lista[0] };
+            Lista.Add(dato);
+            dato = new SqlParameter("@domingo", SqlDbType.NChar) { Value = _lista[1] };
+            Lista.Add(dato);
+            dato = new SqlParameter("@hrsDomingo", SqlDbType.NChar) { Value = _lista[2] };
+            Lista.Add(dato);
+            dato = new SqlParameter("@lunes", SqlDbType.NChar) { Value = _lista[3] };
+            Lista.Add(dato);
+            dato = new SqlParameter("@hrsLunes", SqlDbType.NChar) { Value = _lista[4] };
+            Lista.Add(dato);
+            dato = new SqlParameter("@martes", SqlDbType.NChar) { Value = _lista[5] };
+            Lista.Add(dato);
+            dato = new SqlParameter("@hrsMartes", SqlDbType.NChar) { Value = _lista[6] };
+            Lista.Add(dato);
+            dato = new SqlParameter("@miercoles", SqlDbType.NChar) { Value = _lista[7] };
+            Lista.Add(dato);
+            dato = new SqlParameter("@hrsMiercoles", SqlDbType.NChar) { Value = _lista[8] };
+            Lista.Add(dato);
+            dato = new SqlParameter("@jueves", SqlDbType.NChar) { Value = _lista[9] };
+            Lista.Add(dato);
+            dato = new SqlParameter("@hrsJueves", SqlDbType.NChar) { Value = _lista[10] };
+            Lista.Add(dato);
+            dato = new SqlParameter("@viernes", SqlDbType.NChar) { Value = _lista[11] };
+            Lista.Add(dato);
+            dato = new SqlParameter("@hrsViernes", SqlDbType.NChar) { Value = _lista[12] };
+            Lista.Add(dato);
+            dato = new SqlParameter("@sabado", SqlDbType.NChar) { Value = _lista[13] };
+            Lista.Add(dato);
+            dato = new SqlParameter("@hrsSabado", SqlDbType.NChar) { Value = _lista[14] };
+            Lista.Add(dato);
+
+            this.Proceso.GuardarDatos("sp_InsertarHorarios", Lista);
+
+          
+        }
        
         public void GuardarCliente(ClaseCliente _Cliente)
         {
@@ -127,5 +167,7 @@ namespace AdminProjects.TareasPrincipales
             dt = this.Proceso.BuscarElementosConParametro("sp_ProyectosPorStatus", Lista);
             return dt;
         }
+
+
     }
 }

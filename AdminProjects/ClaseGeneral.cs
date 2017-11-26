@@ -11,9 +11,9 @@ namespace AdminProjects
 {
     public class ClaseGeneral
     {
-        //private SqlConnection conexion = new SqlConnection("Data Source=PALOMAMTZ\\PALOMALIDIA;Initial Catalog = AdminProjects;Trusted_Connection=true;");
+       private SqlConnection conexion = new SqlConnection("Data Source=PALOMAMTZ\\PALOMALIDIA;Initial Catalog = AdminProjects;Trusted_Connection=true;");
         //private SqlConnection conexion = new SqlConnection("workstation id=AdminProjects.mssql.somee.com;packet size=4096;user id=mycloud_SQLLogin_1;pwd=amcs2317ug;data source=AdminProjects.mssql.somee.com;persist security info=False;initial catalog=AdminProjects");
-        private SqlConnection conexion = new SqlConnection("workstation id=AdminProyectos.mssql.somee.com;packet size=4096;user id=lidiaMtz_SQLLogin_1;pwd=pwxi23dqu4;data source=AdminProyectos.mssql.somee.com;persist security info=False;initial catalog=AdminProyectos");
+       // private SqlConnection conexion = new SqlConnection("workstation id=AdminProyectos.mssql.somee.com;packet size=4096;user id=lidiaMtz_SQLLogin_1;pwd=pwxi23dqu4;data source=AdminProyectos.mssql.somee.com;persist security info=False;initial catalog=AdminProyectos");
 
         private SqlCommand CrearComando()
         {

@@ -12,3 +12,11 @@ C:\Users\AbrilMtz\Documents\VisualStudio_ProyectosWeb\AdminProjects - copia\Admi
 C:\Users\AbrilMtz\Documents\VisualStudio_ProyectosWeb\AdminProjects - copia\AdminProjects\obj\Debug\AdminProjects.pdb
 C:\Users\AbrilMtz\Documents\VisualStudio_ProyectosWeb\AdminProjects - copia\AdminProjects\bin\DayPilot.dll
 C:\Users\AbrilMtz\Documents\VisualStudio_ProyectosWeb\AdminProjects - copia\AdminProjects\bin\DayPilot.xml
+C:\Users\AbrilMtz\Documents\VisualStudio_ProyectosWeb\AdminProjects\AdminProjects\bin\AdminProjects.dll.config
+C:\Users\AbrilMtz\Documents\VisualStudio_ProyectosWeb\AdminProjects\AdminProjects\bin\AdminProjects.dll
+C:\Users\AbrilMtz\Documents\VisualStudio_ProyectosWeb\AdminProjects\AdminProjects\bin\AdminProjects.pdb
+C:\Users\AbrilMtz\Documents\VisualStudio_ProyectosWeb\AdminProjects\AdminProjects\bin\DayPilot.dll
+C:\Users\AbrilMtz\Documents\VisualStudio_ProyectosWeb\AdminProjects\AdminProjects\bin\DayPilot.xml
+C:\Users\AbrilMtz\Documents\VisualStudio_ProyectosWeb\AdminProjects\AdminProjects\obj\Debug\AdminProjects.csprojResolveAssemblyReference.cache
+C:\Users\AbrilMtz\Documents\VisualStudio_ProyectosWeb\AdminProjects\AdminProjects\obj\Debug\AdminProjects.dll
+C:\Users\AbrilMtz\Documents\VisualStudio_ProyectosWeb\AdminProjects\AdminProjects\obj\Debug\AdminProjects.pdb
